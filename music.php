@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <title>Home page</title>
-  <link rel="stylesheet" href="css/home.css">
+  <link rel="stylesheet" href="css/music.css">
 
 </head>
   <body><div class="area"></div><nav class="main-menu">
@@ -97,5 +97,19 @@
                 </li>  
             </ul>
         </nav>
-  </body>
+        <div class="cardCase">
+  <script>
+         $('nav ul li.btn span').click(function(){
+           $('nav ul div.items').toggleClass("show");
+           $('nav ul li.btn span').toggleClass("show");
+         });
+      </script>
+
+      <div class="playlist">
+   <iframe src="https://open.spotify.com/embed/playlist/0B1cW8x7Mopg6Du5BJ4spM" width="100%" height="300" frameBorder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+    <iframe src="https://open.spotify.com/embed/playlist/1uJbwrwEhDEhrOXGqYzXit" width="100%" height="300" frameBorder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+</div>
+    <div class="cardCase">
+   </body>
+   
     </html>

@@ -1,4 +1,11 @@
-@import url(//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css);
+.cardCase{
+    padding-left: 50px;
+    padding-top: 25px;
+    z-index: 50;
+    margin-left: 50px;
+    margin-right: 50px;
+   }
+   @import url(//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css);
 @import url(https://fonts.googleapis.com/css?family=Titillium+Web:300);
 .fa-2x {
 font-size: 2em;

@@ -86,7 +86,7 @@ include('google.php');
                   <div class="form-group" >
                   <label for="age">Age:
                   <select name="age" id="age">
-                  <option value="0to16">0-17</option>
+                  <option value="0to16">0-16</option>
                   <option value="17to30">17-30</option>
                   <option value="30to45">30-45</option>
                   <option value="abobe45">Above 45</option>
