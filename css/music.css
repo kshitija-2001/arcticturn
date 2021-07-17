@@ -13,6 +13,18 @@ vertical-align: middle;
 font-size:20px;
 }
 
+.space{
+  margin-bottom: 20px;
+}
+
+.dist{
+  margin-left: 20 px;
+}
+
+.nav-text{
+  margin-left: 20px;
+}
+
 
 .main-menu:hover,nav.main-menu.expanded {
 width:250px;

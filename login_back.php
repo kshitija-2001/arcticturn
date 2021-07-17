@@ -48,7 +48,7 @@ if(isset($_POST['login'])){
             $_SESSION['id']=$data['id'];
             $_SESSION['age']=$data['age'];
             $id=$_SESSION['id'];
-            
+            echo("<script>alert('You have succesfully logged In !!')</script>");
             echo("<script>window.location = 'home.php?id=$id'</script>");
 		}
   else{
