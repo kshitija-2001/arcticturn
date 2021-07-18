@@ -33,7 +33,6 @@
                             </ul>
                         </li>
                         <li><a href="organise.php">Organise</a></li>
-                        <li><a href="music.php">Music</a></li>
                         <li> <a class="desktop-link">Blogs</a> <input type="checkbox" id="show-services"> <label for="show-services">Services</label>
                             <ul>
                                 <li><a href="travelblog.php"><i class="fa fa-fw fa-helicopter"></i>Travel Blogs</a></li>

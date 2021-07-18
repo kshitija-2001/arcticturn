@@ -18,6 +18,7 @@ session_start();
 </head>
 
 <body>
+    
 <div class="wrapper">
             <nav> <input type="checkbox" id="show-search"> <input type="checkbox" id="show-menu"> <label for="show-menu" class="menu-icon"><i class="fas fa-bars"></i></label>
                 <div class="content">
@@ -37,7 +38,6 @@ session_start();
                             </ul>
                         </li>
                         <li><a href="organise.php">Organise</a></li>
-                        <li><a href="music.php">Music</a></li>
                         <li> <a class="desktop-link">Blogs</a> <input type="checkbox" id="show-services"> <label for="show-services">Services</label>
                             <ul>
                                 <li><a href="travelblog.php"><i class="fa fa-fw fa-helicopter"></i>Travel Blogs</a></li>
@@ -54,6 +54,8 @@ session_start();
             </nav>
             </div>
         </div>
+
+        <img class="arctic" src = "https://miro.medium.com/max/2000/1*GeQ37M-CWYSIt-8upZ9jvw.jpeg">
 
         </body>
 

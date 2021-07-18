@@ -17,15 +17,15 @@
 </head>
 
 <body>
-<div class="wrapper">
-            <nav> <input type="checkbox" id="show-search"> <input type="checkbox" id="show-menu"> <label for="show-menu" class="menu-icon"><i class="fas fa-bars"></i></label>
-                <div class="content">
-                    
-                    <div class="logo"><a href="home.php"><img src="images/logo/logo.png"></a></div>
-                    <ul class="links">
-                    <?php 
-                    
-                    echo'
+    <div class="wrapper">
+        <nav> <input type="checkbox" id="show-search"> <input type="checkbox" id="show-menu"> <label for="show-menu" class="menu-icon"><i class="fas fa-bars"></i></label>
+            <div class="content">
+
+                <div class="logo"><a href="home.php"><img src="images/logo/logo.png"></a></div>
+                <ul class="links">
+                    <?php
+
+                    echo '
                        <li><a href="home.php">Home</a></li>
                         <li><a href="travel.php">Travel</a></li>
                         <li> <a class="desktop-link">Relax</a> <input type="checkbox" id="show-services"> <label for="show-services">Services</label>
@@ -36,7 +36,7 @@
                             </ul>
                         </li>
                         <li><a href="organise.php">Organise</a></li>
-                        <li><a href="music.php">Music</a></li>
+                        
                         <li> <a class="desktop-link">Blogs</a> <input type="checkbox" id="show-services"> <label for="show-services">Services</label>
                             <ul>
                                 <li><a href="travelblog.php"><i class="fa fa-fw fa-helicopter"></i>Travel Blogs</a></li>
@@ -45,16 +45,18 @@
                             </ul>
                         </li>
 
-                    </ul>';?>
-                </div> <label for="show-search" class="search-icon"><i class="fas fa-search"></i></label>
-                <form action="" class="search-box"> <input type="text" placeholder="Type Something to Search..." required> <button type="submit" class="go-icon"><i class="fas fa-long-arrow-alt-right"></i></button> </form>
-                <a href="logout.php" type="button" class="btn btn-warning"><h5>Logout</h5></a>
+                    </ul>'; ?>
+            </div> <label for="show-search" class="search-icon"><i class="fas fa-search"></i></label>
+            <form action="" class="search-box"> <input type="text" placeholder="Type Something to Search..." required> <button type="submit" class="go-icon"><i class="fas fa-long-arrow-alt-right"></i></button> </form>
+            <a href="logout.php" type="button" class="btn btn-warning">
+                <h5>Logout</h5>
+            </a>
 
-            </nav>
-            </div>
-        </div>
+        </nav>
+    </div>
+    </div>
     <div class="cardCase">
-    <h1>Travel Blogs</h1>
+        <h1>Travel Blogs</h1>
         <div class="row row-cols- row-cols-md-3 g-4">
             <div class="col">
                 <div class="card h-100">
@@ -72,7 +74,7 @@
                 <div class="card h-100">
                     <img src="https://www.fabhotels.com/blog/wp-content/uploads/2016/07/25-beautiful-places-you-must-visit-before-25-1280x720.jpg" class="card-img-top" alt="...">
                     <div class="card-body">
-                        <h5 class="card-title">25  Beautiful Places You Must Visit before you turn 25</h5>
+                        <h5 class="card-title">25 Beautiful Places You Must Visit before you turn 25</h5>
                         <p class="card-text">Travel! Travel!</p>
                         <a href="#" target="popup" type="button" class="btn btn-primary" onclick="window.open('https://www.fabhotels.com/blog/25-beautiful-places-you-must-visit-before-25/','popup','width=900,height=600'); return false;">
                             Read More
