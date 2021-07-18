@@ -36,6 +36,7 @@
                             </ul>
                         </li>
                         <li><a href="organise.php">Organise</a></li>
+                        <li><a href="music.php">Music</a></li>
                         <li> <a class="desktop-link">Blogs</a> <input type="checkbox" id="show-services"> <label for="show-services">Services</label>
                             <ul>
                                 <li><a href="travelblog.php"><i class="fa fa-fw fa-helicopter"></i>Travel Blogs</a></li>
@@ -52,7 +53,7 @@
             </nav>
             </div>
         </div>
-<body>
+
     <div class="cardCase">
         <h1>Relaxing blogs</h1>
         <div class="row row-cols- row-cols-md-3 g-4">

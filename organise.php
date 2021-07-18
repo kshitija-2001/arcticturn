@@ -44,7 +44,13 @@
                     echo'
                        <li><a href="home.php">Home</a></li>
                         <li><a href="travel.php">Travel</a></li>
-                        <li><a href="relax.php">Relax</a></li>
+                        <li> <a class="desktop-link">Relax</a> <input type="checkbox" id="show-services"> <label for="show-services">Services</label>
+                            <ul>
+                                <li><a href="task.php"><i class="fa fa-fw fa-helicopter"></i>Relaxing Task</a></li>
+                                <li><a href="music.php"><i class="fa fa-fw fa-couch"></i>Relaxing Music</a></li>
+                                </li>
+                            </ul>
+                        </li>
                         <li><a href="organise.php">Organise</a></li>
                         <li><a href="music.php">Music</a></li>
                         <li> <a class="desktop-link">Blogs</a> <input type="checkbox" id="show-services"> <label for="show-services">Services</label>
@@ -63,7 +69,6 @@
             </nav>
             </div>
         </div>
-
 	<div class="container my-3">
 		<h1>Take your Notes here</h1>
 		<div class="card1">
@@ -118,7 +123,6 @@
 				?>
     <?php echo'<div class="card card-'.$x.'">';?>
       <h2 class="card__title"><?php echo $row['note']?></h2>
-	  <input type="">Delete </input>
     </div>
     <?php 
     $x++;
