@@ -55,7 +55,24 @@ session_start();
             </div>
         </div>
 
-        <img class="arctic" src = "https://miro.medium.com/max/2000/1*GeQ37M-CWYSIt-8upZ9jvw.jpeg">
+        
+  <!--  Image start  -->
+  <!-- <div class="image-wrapper">
+    <img src="https://miro.medium.com/max/2000/1*GeQ37M-CWYSIt-8upZ9jvw.jpeg" alt="" />
+  </div> -->
+  <!--  Image end  -->
+<div class="card">
+  <div class="jumbotron">
+  <h1 class="display-4">Hello, world!</h1>
+  <p class="lead">Welcome to Articturn</p>
+  <hr class="my-4">
+  <p>Explore with us!</p>
+  <p>Be free like the Artic Tern</p>
+  <p class="lead">
+    <a class="btn btn-secondary btn-lg" href="travel.php" role="button">Let's Start!</a>
+  </p>
+</div>
+</div>
 
         </body>
 

@@ -3,6 +3,9 @@
 .fa-2x {
 font-size: 2em;
 }
+body{
+  background-color:#ffdddd;
+}
 .fa {
 position: relative;
 display: table-cell;
