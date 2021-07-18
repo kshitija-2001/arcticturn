@@ -22,7 +22,7 @@ include('google.php');
 
             <div class="heading">
                <h2>Arctic turn</h2>
-               <p>Let's Explore with us!</p>
+               <p>   Explore with us!</p>
             </div>
 
             <div class="success-msg">

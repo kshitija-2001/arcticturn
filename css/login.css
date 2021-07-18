@@ -6,6 +6,10 @@ body {
   .container {
     max-width: 900px;
   }
+
+  .logo{
+    margin: auto;
+  }
   
   a {
     display: inline-block;
@@ -60,13 +64,19 @@ body {
     font-weight: 700;
     text-decoration: none;
     line-height: 1em;
+    margin-top: 90px;
+    margin-left: 165px;
   }
  
   .brand a.logo span {
     font-size: 30px;
-    color: #fff;
+    color: rgb(255, 255, 255);
     transform: translateX(-5px);
     display: inline-block;
+    margin-top: 100px ;
+    
+
+
   }
   .brand .heading {
     position: absolute;

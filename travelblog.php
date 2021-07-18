@@ -58,7 +58,7 @@
         <div class="row row-cols- row-cols-md-3 g-4">
             <div class="col">
                 <div class="card h-100">
-                    <img src="https://images.unsplash.com/photo-1551632811-561732d1e306?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80" class="card-img-top" alt="..." >
+                    <img src="https://images.unsplash.com/photo-1551632811-561732d1e306?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80" class="card-img-top" alt="..." style="">
                     <div class="card-body">
                         <h5 class="card-title">Lets's get prepared for a Trek</h5>
                         <p class="card-text">Pack all the essential things you need for a trek.</p>
