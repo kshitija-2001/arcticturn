@@ -53,6 +53,7 @@ if(isset($_POST['login'])){
 		}
   else{
     echo("<script>alert('Wrong Email or Password!!')</script>");
+    echo("<script>window.location = 'index.php?id=$id'</script>");
   }
 
 }
